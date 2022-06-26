@@ -9,7 +9,7 @@ const ProductPreview: NextPage = () => {
         <div className="xl:hidden">
           <Image
             className="rounded-t-lg xl:hidden"
-            src="/images/product-preview/product-preview-mobile.jpg"
+            src="/images/product-preview/product-preview-mobile.png"
             alt="Vercel Logo"
             height={240}
             width={343}
@@ -46,7 +46,7 @@ const ProductPreview: NextPage = () => {
         <div>
           <Image
             className="rounded-l-lg xl:hidden"
-            src="/images/product-preview/product-preview-desktop.jpg"
+            src="/images/product-preview/product-preview-desktop.png"
             alt="Vercel Logo"
             height={450}
             width={300}
