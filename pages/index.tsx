@@ -13,6 +13,7 @@ const ProductPreview: NextPage = () => {
             alt="Vercel Logo"
             height={240}
             width={343}
+            loading="eager"
           />
         </div>
         <div className="bg-white rounded-b-lg pb-6 xl:hidden">
@@ -50,6 +51,7 @@ const ProductPreview: NextPage = () => {
             alt="Vercel Logo"
             height={450}
             width={300}
+            loading="eager"
           />
         </div>
         <div className="xl:max-h-[450px] xl:max-w-[300px] mx-8">
